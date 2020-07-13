@@ -6,8 +6,7 @@
     font-size: 13px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
   }
-  
-  /* Darker background on mouse-over */
+
   .btn:hover {
     background-color: RoyalBlue;
   }
@@ -20,3 +19,7 @@
     text-align: center;
   }
 
+.hack { 
+    font-size: 20px
+    
+}
