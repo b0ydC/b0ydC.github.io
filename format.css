@@ -1,9 +1,9 @@
 .btn {
-    background-color: DodgerBlue; /* Blue background */
+    background-color: rgb(55, 160, 86); /* Blue background */
     border: none; /* Remove borders */
     color: white; /* White text */
-    padding: 5px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
+    padding: 5px 10px; /* Some padding */
+    font-size: 13px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
   }
   
