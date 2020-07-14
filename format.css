@@ -36,3 +36,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.h4 {
+  font-size: 13px; /* Set a font size */
+}
