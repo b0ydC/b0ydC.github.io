@@ -62,3 +62,8 @@ tr:nth-child(even) {
   background: #55ACEE;
   color: white;
 } 
+
+.fa-github {
+  background: #000000;
+  color: white;
+} 
