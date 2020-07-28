@@ -20,34 +20,43 @@
 
 <a href="">.collect logs via CLI</a><br>
 <p>
-opt/qradar/support/get_logs.sh –s -q 7<br>
+ opt/qradar/support/get_logs.sh –s -q 7</p><br>
 <a href="">.stop services</a><br>
+<p>
 systemctl stop hostservices<br>
 systemctl stop tomcat<br>
 systemctl stop hostcontext<br>
-
+</p>
 <a href="">.find largest files [partition]</a><br>
+<p>
 find /transient/ -printf '%s %p\n'| sort -nr | head -25<br>
 find /store/ -printf '%s %p\n'| sort -nr | head -25<br>
 find /var/log -printf '%s %p\n'| sort -nr | head -25<br>
-
+</p>
 <a href="">.check application status</a><br>
+<p>
 7.3.1 -<br>
 /opt/qradar/support/qapp_utils_730.py ps<br>
 7.3.2 +<br>
 /opt/qradar/support/recon ps<br>
-
+</p>
 <a href="">.check running services</a><br>
+<p>
 7.3.1 -<br>
 /opt/devmgmt/libexec/check_qradar_procs<br>
 7.3.2 +<br>
 /opt/qradar/upgrade/util/setup/upgrades/wait_for_start.sh<br>
-
+</p>
 <a href="">.collect info from all servers</a><br>
+<p>
 ex: disk usage all environment<br>
 /opt/qradar/support/all_servers.sh ‘df -h’<br>
 /opt/qradar/support/all_servers.sh  /opt/qradar/bin/time_sync.sh <br>
 </p>
+
+
+
+
 
 
 <br>
