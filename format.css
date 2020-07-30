@@ -21,6 +21,12 @@
         text-align: center;     
 }
 
+.hack_v { 
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;     
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
