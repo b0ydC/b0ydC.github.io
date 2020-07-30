@@ -18,6 +18,44 @@
 
 <h3>root@b0ydC:~$ Linux OS</h3><br>
 
+<p>
+  <h3>OS Usage</h3>
+  <a href="">.turn off service at boot time</a><br>
+  # systemctl disable [service]<br>
+  OR<br>
+  # chkconfig [service] off
+  <a href="">.start/stop/restart service</a><br>
+  # systemctl start [service]<br>
+  # systemctl stop [service]<br>
+  # systemctl restart [service]<br>
+  <a href="">.get service status</a><br>
+  # systemctl status [service]<br>
+  <a href="">.how to install</a><br>
+  # sudo apt-get install [package_name]<br>
+  OR<br>
+  # sudo yum install [package_name]<br>
+  <a href="">.how to add an user</a><br>
+  # sudo useradd [username]<br>
+  <a href="">.how to set a password</a><br>
+  # sudo passwd [username]<br>
+  You will be prompted to enter and confirm the password.<br>
+  <a href="">.how check files</a><br>
+  # cat /var/log/error.log <br>
+  # less /var/log/error.log <br>
+
+</p>
+
+
+<p>
+<h3>hardening</h3>
+1. create user "operator" and assign the neccesary permissions, DO NOT use "root"<br>
+2. disable root login<br>
+3. change SSH default port<br>
+4. enable account lockout<br>
+5. enable & use SELinux<br>
+6. implement strong password policy<br>
+</p>
+
 
 <br>
 <a href="https://b0ydC.github.io/blueteam.html" class="btn">Back</a>
